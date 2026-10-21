@@ -1,0 +1,16 @@
+# Dependencies and environment
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Runtime data and logs
+data/
+*.log
+npm-debug.log*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

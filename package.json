@@ -1,0 +1,15 @@
+{
+  "name": "nexivault",
+  "version": "1.0.0",
+  "description": "NexiVault password manager prototype with phishing-aware autofill checks",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js",
+    "sync-extension": "cp public/js/domain.js extension/domain.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
